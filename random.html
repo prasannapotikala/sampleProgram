@@ -1,0 +1,27 @@
+<html>
+
+<head>
+//write javascript function for generate random number between 0 and 9.
+<script type="text/javascript"> 
+	function getRandom(){
+    		var min=0; 
+    		var max=9;  
+   		 var random = Math.floor(Math.random() * (+max - +min)) + +min; 
+    		document.write("Random Number Generated : " + random );  
+	}
+</script>  
+
+</head>
+ 
+<body>
+
+<p>Click the button to display a random number.</p>
+
+<!--input-->
+
+<input type="button" value="TryIt" onclick="getRandom();"/> 
+
+
+
+</body>
+</html>
